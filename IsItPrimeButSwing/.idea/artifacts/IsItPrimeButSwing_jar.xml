@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="IsItPrimeButSwing:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/IsItPrimeButSwing_jar</output-path>
+    <root id="archive" name="IsItPrimeButSwing.jar">
+      <element id="module-output" name="IsItPrimeButSwing" />
+    </root>
+  </artifact>
+</component>
