@@ -17,7 +17,7 @@ public class Frame1 {
     }
 
     private void initialize() {
-        ImageIcon icon = new ImageIcon("C:\\Documents\\Java Projects\\IsItPrimeButSwing\\Calculator.jpg");
+        ImageIcon icon = new ImageIcon("C:IsItPrimeButSwing\\Calculator.jpg");
 
         frame = new JFrame();
         frame.setTitle("Prime Detector");
