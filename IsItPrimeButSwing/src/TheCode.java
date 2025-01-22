@@ -13,7 +13,7 @@ public class TheCode {
                 break;
             }
         }
-    } else if (number.equals("1") | number.equals("-1") ) {
+    } else if (number.equals(new BigInteger("1")) | number.equals(new BigInteger("-1"))) {
         IsItPrime = false;
     } else if (number.compareTo(new BigInteger("-2")) == -1) {
         for (BigInteger i = new BigInteger("2"); i.compareTo(number.multiply(new BigInteger("-1"))) == -1; i = i.add(new BigInteger("1"))) {
@@ -23,7 +23,7 @@ public class TheCode {
             }
 
         }
-    } else if (number.equals("0")) {
+    } else if (number.equals(new BigInteger("0"))) {
                 IsItPrime = false;
         }else{
         IsItPrime = true;
