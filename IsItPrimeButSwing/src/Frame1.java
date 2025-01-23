@@ -51,7 +51,7 @@ public class Frame1 {
 
                 try {
                     TheCode code = new TheCode();
-                    BigInteger number = new BigInteger(textField.getText());
+                    long number = Long.valueOf(textField.getText());
                     code.primeDetector(number);
 
 
@@ -80,14 +80,13 @@ public class Frame1 {
         button = new JButton("Enter");
         button.setFocusable(false);
         button.setBackground(Color.lightGray);
-        button.setBorder(BorderFactory.createEtchedBorder());
-        button.setForeground(Color.cyan);
+        button.setForeground(Color.black);
         button.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 try {
                     TheCode code = new TheCode();
-                    BigInteger number = new BigInteger(textField.getText());
+                    Long number = Long.valueOf(textField.getText());
                     code.primeDetector(number);
 
 
