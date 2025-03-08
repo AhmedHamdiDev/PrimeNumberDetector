@@ -1,0 +1,18 @@
+
+
+Version:	3.50
+CmdLine:	C:\Users\ahmed\Documents\Prime Detector\PrimeNumberDetector\Windows\Prime Detector.exe --l4j-debug
+JNI:		No
+WOW64:		Yes
+Working dir:	C:\Users\ahmed\Documents\Prime Detector\PrimeNumberDetector\Windows\.
+Requires JDK:	No
+Requires 64-Bit: No
+Java min ver:	
+Java max ver:	
+JRE paths:	C:\Program Files\Java\jdk-23
+Check launcher:	C:\Program Files\Java\jdk-23\bin\javaw.exe (OK)
+Version string: 1.023.000_002 / 64-Bit (OK)
+Launcher:	C:\Program Files\Java\jdk-23\bin\javaw.exe
+Launcher args:	-jar "C:\Users\ahmed\Documents\Prime Detector\PrimeNumberDetector\Windows\Prime Detector.exe"
+Args length:	93/32768 chars
+Exit code:	0

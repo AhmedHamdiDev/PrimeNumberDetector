@@ -17,14 +17,13 @@ public class Frame1 {
     }
 
     private void initialize() {
-        ImageIcon icon = new ImageIcon("C:\\Documents\\Java Projects\\IsItPrimeButSwing\\Calculator.jpg");
-
         frame = new JFrame();
         frame.setTitle("Prime Detector");
         frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         frame.setSize(420, 420);
         frame.setLayout(new BorderLayout(10, 10));
         frame.setLocationRelativeTo(null);
+        ImageIcon icon = new ImageIcon("C:\\Users\\ahmed\\Documents\\Prime Detector\\PrimeNumberDetector\\IsItPrimeButSwing\\Calculator.jpg");
         frame.setIconImage(icon.getImage());
 
         panel = new JPanel();
@@ -68,10 +67,7 @@ public class Frame1 {
                     }
 
                 } catch (NumberFormatException exception) {
-                    DisplayLabel.setText("Please Enter a Valid Number");
-                    DisplayLabel.setVisible(true);
-                    DisplayPanel.setVisible(true);
-                    DisplayPanel.add(DisplayLabel);
+                    JOptionPane.showMessageDialog(frame, "Please Enter a Valid Number", "Error", JOptionPane.ERROR_MESSAGE);
                 }
             }
         });
@@ -103,10 +99,7 @@ public class Frame1 {
                     }
 
                 } catch (NumberFormatException exception) {
-                    DisplayLabel.setText("Please Enter a Valid Number");
-                    DisplayLabel.setVisible(true);
-                    DisplayPanel.setVisible(true);
-                    DisplayPanel.add(DisplayLabel);
+                    JOptionPane.showMessageDialog(frame, "Please Enter a Valid Number", "Error", JOptionPane.ERROR_MESSAGE);
                 }
             }
         });
