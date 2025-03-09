@@ -23,7 +23,7 @@ public class Frame1 {
         frame.setSize(420, 420);
         frame.setLayout(new BorderLayout(10, 10));
         frame.setLocationRelativeTo(null);
-        ImageIcon icon = new ImageIcon("C:\\Users\\ahmed\\Documents\\Prime Detector\\PrimeNumberDetector\\IsItPrimeButSwing\\Calculator.jpg");
+        ImageIcon icon = new ImageIcon("C:\\Program Files\\Prime Detector\\Calculator.jpg");
         frame.setIconImage(icon.getImage());
 
         panel = new JPanel();
