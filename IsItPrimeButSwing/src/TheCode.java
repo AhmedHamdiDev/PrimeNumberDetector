@@ -1,21 +1,13 @@
 public class TheCode {
-    public static boolean IsItPrime =true;
-    public static void primeDetector(long number){
-        if(number == 1 | number == 0){
-            IsItPrime = false;
-        } else if(number == 2) {
-            IsItPrime=true;
-        }else if(number>2){
-            for(long i=2;i*i<=number; i++){
-                if(number % i == 0){
-                    IsItPrime = false;
-                    break;
-                }
-                IsItPrime=true;
+    public static boolean primeDetector(long number){
+        if (number<=1) return false;
+        if (number==2) return true;
+        if (number % 2==0) return false;
+        for (int i=3; i*i<=number; i+=2){
+            if (number % i==0) {
+                return false;
             }
-        }else {
-            IsItPrime=false;
         }
+        return true;
     }
 }
-
