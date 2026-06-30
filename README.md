@@ -1,10 +1,10 @@
 This Project is meant to be used as a primality tester for integers.
 
-#Installation
+# Installation
 
 Clone the repository or download the latest release
 
-#Usage
+# Usage
 
 1. Enter your number
 2. The algorithm will test your number for primality
